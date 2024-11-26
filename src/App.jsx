@@ -1,6 +1,13 @@
+import SwipeScreen from "./components/SwipeScreen/SwipeScreen";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world</h1>;
+  return(
+	<>
+	<div className="bg-slate-700 h-screen w-full flex justify-center items-center">
+		<SwipeScreen/>
+	</div>	
+	</>
+	);
 }
 
 export default App
